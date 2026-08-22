@@ -1,0 +1,33 @@
+skill,category
+Python,Programming
+Java,Programming
+C++,Programming
+C,Programming
+JavaScript,Web Development
+TypeScript,Web Development
+HTML,Web Development
+CSS,Web Development
+React,Web Development
+Node.js,Web Development
+SQL,Database
+Machine Learning,AI/ML
+Deep Learning,AI/ML
+Artificial Intelligence,AI/ML
+Natural Language Processing,AI/ML
+Computer Vision,AI/ML
+TensorFlow,AI/ML
+PyTorch,AI/ML
+Scikit-learn,AI/ML
+Pandas,Data Science
+NumPy,Data Science
+Matplotlib,Data Science
+Git,Tools
+GitHub,Tools
+Docker,DevOps
+AWS,Cloud
+Azure,Cloud
+Flask,Backend
+Django,Backend
+Data Structures,Computer Science
+Algorithms,Computer Science
+Object Oriented Programming,Computer Science

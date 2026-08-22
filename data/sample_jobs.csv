@@ -1,0 +1,6 @@
+job_id,job_title,company,description,required_skills
+1,Software Engineer,TCS,"Develop software applications, solve programming problems, work with databases and collaborate with development teams.","Python;Java;SQL;Data Structures;Git;Object Oriented Programming"
+2,Machine Learning Engineer,Tech Solutions,"Build machine learning models, preprocess datasets, evaluate models and deploy AI solutions.","Python;Machine Learning;Scikit-learn;Pandas;NumPy;SQL"
+3,Data Analyst,Analytics Corp,"Analyze business data, create reports and identify useful patterns using statistical and data analysis techniques.","Python;SQL;Pandas;NumPy;Matplotlib"
+4,AI Engineer,AI Labs,"Develop artificial intelligence solutions using machine learning, deep learning and natural language processing.","Python;Machine Learning;Deep Learning;NLP;TensorFlow;PyTorch"
+5,Web Developer,Digital Systems,"Develop responsive web applications and APIs using modern frontend and backend technologies.","HTML;CSS;JavaScript;React;Node.js;Git"
