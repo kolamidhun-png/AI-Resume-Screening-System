@@ -1,94 +1,52 @@
 # 🤖 AI Resume Screening System
 
-An intelligent resume screening and job-matching system that uses Natural Language Processing, TF-IDF, and BERT-based semantic similarity to evaluate how well a candidate's resume matches a job description.
+An AI-powered resume screening and job matching system that analyzes a candidate's resume against job requirements using Natural Language Processing (NLP), skill matching, TF-IDF similarity, and BERT-based semantic similarity.
 
----
+## 🌐 Live Demo
+
+[AI Resume Screening System · Streamlit](https://ai-resume-screening-system-hggfaqwwi2cxxdkhqd3nbz.streamlit.app/)
 
 ## 📌 Project Overview
 
-Recruiters often need to review a large number of resumes for a single job position. Manual screening can be time-consuming and may lead to inconsistent evaluation.
+Recruiters often need to evaluate large numbers of resumes against different job descriptions. This project automates the initial screening process by extracting information from a candidate's resume and comparing it with job requirements.
 
-This project automates the initial resume screening process by extracting information from PDF resumes, identifying technical skills, comparing resume content with job descriptions, and generating a final matching score.
+The system combines multiple matching techniques to calculate an overall compatibility score and provide a candidate recommendation.
 
-The system combines three major approaches:
+## ✨ Features
 
-- Skill-based matching
-- TF-IDF text similarity
-- BERT semantic similarity
+- 📄 Upload and extract text from PDF resumes
+- 🧹 Text preprocessing and normalization
+- 🛠️ Automatic resume skill extraction
+- 📚 TF-IDF-based text similarity
+- 🤖 BERT-based semantic similarity
+- 🎯 Skill matching score
+- ⭐ Combined final compatibility score
+- 📊 Screening results visualization
+- ⚠️ Matched and missing skills analysis
+- 🖥️ Interactive Streamlit web interface
+- 🧪 Automated unit testing with pytest
 
----
-
-## 🎯 Objectives
-
-- Automatically extract text from PDF resumes.
-- Identify relevant technical skills.
-- Compare resumes with job descriptions.
-- Calculate TF-IDF similarity.
-- Calculate semantic similarity using BERT.
-- Generate a weighted final matching score.
-- Recommend candidates based on the final score.
-- Display matched and missing skills.
-- Provide an easy-to-use web interface.
-
----
-
-## 🚀 Features
-
-- 📄 PDF Resume Upload
-- 🧹 Automatic Text Preprocessing
-- 🧠 Technical Skill Extraction
-- 📚 TF-IDF Matching
-- 🤖 BERT Semantic Matching
-- 📊 Weighted Resume Score
-- ✅ Matched Skills
-- ❌ Missing Skills
-- 🎯 Candidate Recommendation
-- 📈 Score Visualization
-- 🌐 Streamlit Web Interface
-
----
-
-## 🛠️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Python | Main programming language |
-| Streamlit | Web application |
-| Pandas | Dataset handling |
-| Scikit-learn | TF-IDF and cosine similarity |
-| Sentence Transformers | BERT-based semantic similarity |
-| PyTorch | Deep learning backend |
-| PDFPlumber | PDF text extraction |
-| Matplotlib | Data visualization |
-| Jupyter Notebook | ML/NLP experimentation |
-
----
-
-## 🧠 System Architecture
+## 🧠 How It Works
 
 ```text
 Resume PDF
-    │
-    ▼
+    ↓
 PDF Text Extraction
-    │
-    ▼
+    ↓
 Text Preprocessing
-    │
-    ▼
+    ↓
 Skill Extraction
-    │
-    ├───────────────┐
-    ▼               ▼
-TF-IDF          BERT
-Matching        Semantic Matching
-    │               │
-    └───────┬───────┘
-            ▼
-      Weighted Scoring
-            │
-            ▼
-      Candidate Ranking
-            │
-            ▼
-   Recommendation Result
+    ↓
+┌─────────────────────────────┐
+│     Matching Techniques     │
+│                             │
+│  Skill Matching             │
+│  TF-IDF Similarity          │
+│  BERT Semantic Similarity   │
+└─────────────────────────────┘
+    ↓
+Score Calculation
+    ↓
+Final Compatibility Score
+    ↓
+Candidate Recommendation
